@@ -27,7 +27,7 @@ scissor = '''
 ---.__(___)
 '''
 
-user_ask = int(input("Select your option? 1 for Rock, 2 for Paper and 3 for Scissor"))
+user_ask = int(input("Select your option? 1 for Rock, 2 for Paper and 3 for Scissor\n"))
 
 computer_opt = random.randint(1,3)
 
