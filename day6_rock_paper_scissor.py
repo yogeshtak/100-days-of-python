@@ -1,3 +1,6 @@
+#day6
+#18-Dec-2020
+
 import random 
 
 rock = '''

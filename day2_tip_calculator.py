@@ -1,3 +1,6 @@
+#day2
+#14-Dec-2020
+
 #welcome greeting message
 print("Welcome to the Tip Calculator")
 

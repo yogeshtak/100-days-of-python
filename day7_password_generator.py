@@ -1,3 +1,6 @@
+#day7
+#19-Dec-2020
+
 #importing external library
 import random
 

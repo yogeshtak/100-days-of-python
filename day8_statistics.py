@@ -1,3 +1,6 @@
+#day8
+#20-Dec-2020
+
 def statistics(numbers):
     #validating that input argument is list
     if isinstance(numbers, list):

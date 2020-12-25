@@ -1,3 +1,6 @@
+#day4
+#16-Dec-2020
+
 #function to calculate sum of n numbers
 def sumofn():
     #validating input for positive number
