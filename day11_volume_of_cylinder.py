@@ -11,12 +11,12 @@ radius = ''
 while radius.isdigit() == False:
     print("Please enter radius in numeric format only")
     radius = input('Enter radius of cylinder: ')
-radius = int(radius)
+radius = float(radius)
 
 height = ''
 while height.isdigit() == False:
     print("Please enter height in numeric format only")
     height = input('Enter radius of cylinder: ')
-height = int(height)
+height = float(height)
 
 print(f"Volume of the cylinder is {round(math.pi*(radius**2)*height,1)}")
