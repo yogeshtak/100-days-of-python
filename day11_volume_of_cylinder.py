@@ -7,7 +7,16 @@ decimal place.
 '''
 import math
 
-radius = int(input("Enter radius of the cylinder:"))
-height = int(input("Enter height of the cylinder:"))
+radius = ''
+while radius.isdigit() == False:
+    print("Please enter radius in numeric format only")
+    radius = input('Enter radius of cylinder: ')
+radius = int(radius)
+
+height = ''
+while height.isdigit() == False:
+    print("Please enter height in numeric format only")
+    height = input('Enter radius of cylinder: ')
+height = int(height)
 
 print(f"Volume of the cylinder is {round(math.pi*(radius**2)*height,1)}")
