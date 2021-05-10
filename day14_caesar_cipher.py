@@ -1,9 +1,9 @@
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n', 
             'o','p','q','r','s','t','u','v','w','x','y','z']
 
-#decode_encode = input("Do you want to encode a message or decode?")
-#message = input("Please enter your message")
-#shift_num = int(input("Enter shift number"))
+decode_encode = input("Do you want to encode a message or decode? ")
+message = input("Please enter your message: )
+shift_num = int(input("Enter shift number; "))
 
 def encode(message, shift_num):
 
@@ -64,3 +64,8 @@ def decode(message, shift_num):
     return " ".join(decoded_words)
 
 
+if decode_encode.lower() == "encode":
+    print(encode(message, shift_num))
+
+if decode_encode.lower() == "decode":
+    print(decode(message, shift_num))
